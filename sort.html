@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms</title>
+    <link rel="shortcut icon" type="image/png" href="./media/favicon.png">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/sort.js" defer></script>
+    <script src="./components/node.js" defer></script>
+    <script src="./components/node-list.js" defer></script>
+</head>
+<body>
+<section class="main">
+
+    <nav class="navbar">
+        Sorting Vizualizer
+        <form>
+            <label for="minVal">Min</label>
+            <input id="minVal" type="number" placeholder="min" value=1 />
+            <label for="maxVal">Max</label>
+            <input id="maxVal" type="number" placeholder="max" value=1000 />
+            <label for="sampleSize">Sample Size</label>
+            <input id="sampleSize" type="number" placeholder="Sample Size" value=10 />
+            <input type="submit" value="GO" id="update">
+            <input type="button" value="Bubble Sort" id="bubbleSort">
+        </form>
+    </nav>
+    <node-list>
+    </node-list>
+    <footer>
+        <small>Made with HTML, CSS and JavaScript</small>
+    </footer>
+</section>
+</body>
+</html>

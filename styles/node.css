@@ -1,0 +1,29 @@
+
+.node-wrapper {
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+}
+
+.node-bar {
+    background-color: rgb(182, 239, 220);
+    min-width: 5px;
+    padding-top: 5px;
+}
+
+.s-node[sorted="true"] .node-bar {
+    background-color: var(--maincolor);
+}
+
+.s-node[sorted="true"] {
+    background-color: var(--maincolor);
+}
+
+.value {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    /* padding: 2px; */
+    width: 30px;
+}
+

@@ -1,0 +1,14 @@
+
+.node-list-wrapper {
+    display: block;
+    background-color: #fff;
+    padding: 1.3rem;
+}
+
+/* .s-node[sorted="true"] .node-bar {
+    background-color: var(--maincolor);
+}
+
+s-node[sorted="true"] {
+    background-color: var(--maincolor);
+} */
